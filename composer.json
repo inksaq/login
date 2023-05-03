@@ -1,0 +1,13 @@
+{
+    "name": "inksaq/test",
+    "description": "testing",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^1.15",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

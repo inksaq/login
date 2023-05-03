@@ -1,0 +1,56 @@
+.box {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px; /* Add spacing between boxes */
+    padding: 40px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #797979;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px - 80px); /* Assuming your navigation bar height is 60px */
+    /* Include any necessary vendor prefixes for older browser support */
+    padding-top: 60px; /* Add the margin-top equal to the navigation bar height */
+    top: 80px;
+}
+
+
+.container{
+    max-width: 1800px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.two.columns {
+    margin-right: 20px; /* Add spacing between columns */
+}
+
+
+/* Custom styles for different box types */
+.forum-post-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.online-user-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.quick-nav-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.comment-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
